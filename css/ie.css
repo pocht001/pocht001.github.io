@@ -1,0 +1,65 @@
+/* Foundation v2.2.1 http://foundation.zurb.com */
+/* This is for all IE specfific style less than IE9. We hate IE. */
+
+div.panel { border: 1px solid #ccc; }
+.lt-ie8 .nav-bar li.has-flyout a { padding-right: 20px; }
+.lt-ie8 .nav-bar li.has-flyout a:after { border-top: none; }
+
+/* Correct IE7 button padding */
+.lt-ie8 input[type=submit].nice.button { filter:chroma(color=#000000); position: relative; top: -2px; }
+.lt-ie8 input[type=submit].tiny.button		{ padding: 5px 5px 7px; }
+.lt-ie8 input[type=submit].small.button		{ padding: 8px 7px 9px; }
+.lt-ie8 input[type=submit].medium.button	{ padding: 9px 13px 9px; }
+.lt-ie8 input[type=submit].large.button		{ padding: 9px 18px 10px; }
+
+
+
+/*transparency effects */
+    .lt-ie9 #content .opaque{
+        background : transparent;
+        -ms-filter : progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000);
+        filter : progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000);
+        zoom : 1;
+    }
+
+    .lt-ie9 #content .sidebar { float:right;}
+    .lt-ie9 #content .project tags { float:left; }
+    .lt-ie9 #content .works .item span, .lt-ie9 #content .image a span { filter: alpha(opacity=0); }
+    .lt-ie9 #content .works .item span.active { filter: alpha(opacity=1); }
+    .lt-ie9 #content h3 {padding-top:12px; margin-bottom: 20px; float:none;}
+    .lt-ie9 img { max-width: none; }
+    .lt-ie9 iframe { border: none; outline: none; }
+    .lt-ie9 #content #filters { margin-left:10px; float:none; }
+    .lt-ie9 #content .works { margin-left:10px;}
+    .lt-ie9 #content .submit { font-size:0;}
+    .lt-ie9 #content .commentForm .area textarea { width:411px;}
+    .lt-ie9 #content .contactForm .area textarea { width:225px; max-width: 225px;}
+    .lt-ie9 #content .blog .sidebar .search form .input-text {  width: 178px; left:-10px}
+
+    /* Custom fixes */
+    .lt-ie8 #content .flex-video { width: auto; }
+    .lt-ie8 #content .copy { margin-top:16px; }
+    .lt-ie8 #content .inset {margin-left: 4.3%;}
+    .lt-ie8 #content #filters { display: none;}
+    .lt-ie8 #content .works { margin-top:30px; }
+    .lt-ie8 #content p { float: none; }
+    .lt-ie8 #content .blog .meta ul li { float: none;}
+    .lt-ie8 #content .blog .article .meta ul li { float: left;}
+    .lt-ie8 #content .works .item { overflow: auto;}
+    .lt-ie8 #musicPlayer ul li { margin-top:-15px; }
+    .lt-ie8 #content .blog .comments ul { width:100%; }
+    .lt-ie8 #content .blog .thumbnail img { width:auto; }
+    .lt-ie8 #content .tweets, .lt-ie8 #content .tweets li, .lt-ie8 #content .tweet_time {float:none; width:100%; clear:both;}
+    .lt-ie8 #content .tweet_text { width:100%; clear:both;}
+    .lt-ie8 #content #message { margin-left:25px; }
+    .lt-ie8 #content .contained { display: none;}
+    .lt-ie8 #content h3 { margin-top:0; }
+    .lt-ie8 #content .contactForm .area textarea { width:181px; height: 59px;}
+    .lt-ie8 #content .contactForm .fields { margin-bottom:15px;}
+
+    .lt-ie8 #content .blog .sidebar .search form .input-text { width: 157px; left:-10px}
+    .lt-ie8 #content .blog .pagination li.next {max-width: 120px; float:right; }
+    .lt-ie8 #content .commentForm .area {float:right; max-width:400px;}
+    .lt-ie8 #content .commentForm .area textarea { width:354px;}
+    .lt-ie8 #content .pagination {margin-top:0;}
+    .lt-ie8 #content .project .tags {float:none;}
