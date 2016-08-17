@@ -1,7 +1,4 @@
 {
-  "name": "TestName",
-  "short_name": "TestShort",
-  "start_url": "/",
   "display": "standalone",
-  "gcm_sender_id": "770299364605"
+  "gcm_sender_id": "330561634409"
 }
